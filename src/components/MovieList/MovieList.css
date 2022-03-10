@@ -1,0 +1,57 @@
+.movie-list {
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+}
+
+.movie-list .heading {
+    display: flex;
+    width: 100%;
+    min-width: 650px;
+    border-bottom: 1px solid #DCDCDC;
+    padding-bottom: 10px;
+}
+
+.movie-list .heading > * {
+    font-weight: 600;
+    font-size: 13px;
+    padding: 0 5px;
+}
+
+.movie-list .title {
+    width: 35%;
+}
+
+.movie-list .poster {
+    width: 30%;
+}
+
+.movie-list .rated {
+    width: 10%;
+}
+
+.movie-list .run-time {
+    width: 15%;
+}
+
+.movie-list .rating {
+    width: 10%;
+}
+
+.movie-list .movie {
+    min-width: 650px;
+    padding: 20px 0;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.movie-list .movie > * {
+    padding: 0 5px;
+}
+
+.movie-list .movie:nth-child(odd) {
+    background: #f4f6f8;
+}
+
+.movie-list button {
+    margin-top: 20px;
+}

@@ -1,0 +1,41 @@
+.movie {
+    display: flex;
+    font-size: 13px;
+}
+
+.movie .title {
+    font-weight: 600;
+}
+
+.movie .poster {
+    overflow: hidden;
+}
+
+.movie img {
+    height: 100px;
+    width: auto;
+}
+
+.movie .rating > div {
+    display: flex;
+    align-items: center;
+}
+
+.movie .rating .icon {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.movie .rating .great {
+    background: #92C83E;
+}
+
+.movie .rating .average {
+    background: #F89420;
+}
+
+.movie .rating .below-average {
+    background: #CC0000;
+}
